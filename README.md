@@ -1,20 +1,14 @@
 # Automatización de Reportes en Python
 
-Este proyecto automatiza el filtrado de datos de ventas y genera reportes organizados automáticamente.
+Este proyecto carga un archivo Excel, filtra ventas mayores a 1000 y genera un reporte automático.
 
-## Funciones
-- Lee archivo CSV
-- Filtra información
-- Genera reporte automático
-
-## Tecnologías usadas
+## Tecnologías
 - Python
 - Pandas
+- Openpyxl
 
-## Cómo ejecutar
-
-1. Instalar dependencias:
-pip install pandas
-
-2. Ejecutar programa:
-python reporte.py
+## Cómo usarlo
+1. Colocar archivo ventas.xlsx en la carpeta
+2. Ejecutar:
+   python reporte.py
+3. El reporte se genera automáticamente
